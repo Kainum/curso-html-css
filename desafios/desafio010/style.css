@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Idroid;
+    src: url(fonts/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(76, 247, 153);
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(16, 116, 61), rgb(76, 247, 153));
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(16, 116, 61);
+    padding: 3px;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+}
+
+h1#principal {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.445);
+    text-align: center;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.445);
+    text-align: center;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+nav > ul {
+    margin: 0px;
+}
+
+li.menu-item {
+    display: inline;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+li.menu-item:hover {
+    background-color: rgba(76, 247, 153, 0.541);
+    border-radius: 6px;
+}
+
+li.menu-item > a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Idroid, sans-serif;
+    color: rgb(16, 116, 61);
+}
+
+h2 {
+    font-family: Idroid, sans-serif;
+    color: rgb(16, 116, 61);
+    background-color: rgba(76, 247, 153, 0.295);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 3em;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div#card {
+    background-color: rgb(76, 247, 153);
+    border-radius: 15px;
+}
+
+div#card > h2 {
+    background-color: rgb(16, 116, 61);
+    border-radius: 15px 15px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+section#aprender-mais {
+    padding: 0px 10px 10px 10px;
+}
+
+section#aprender-mais > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section#aprender-mais > ul {
+    display: inline-block;
+}
